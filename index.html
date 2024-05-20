@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/45f863ce84.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header">
+  <div class="container">
+    <nav>
+      <img src="Logo.png" class="Logo">
+      <ul  id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+        <i class="fas fa-times" onclick="closemenu()"></i>
+      </ul>
+      <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+      <p>Web Designer</p>
+      <h1>Hi, I'm<span> Maruful </span><br> Islam Rafe From Bangladesh.</h1>
+    </div>
+  </div>
+ </div>
+ <!-----------about---------->
+ <div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1"> 
+        <img src="user.png">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>Hello, I'm Rafe, a driven undergraduate student currently pursuing my degree in CSE at Sheikh Hasina University, Netrokona. Throughout my academic journey, I've embraced every opportunity to expand my knowledge and hone my skills in Web developing and Robotics. With a strong commitment to academic excellence, I've maintained a CGPA-3.69 while actively engaging in various projects and extracurricular activities. Beyond the classroom, I am deeply passionate about playing various kind of sports and i have won the first prize of Intra University Badmintion tournament, which not only provide me with personal fulfillment but also contribute to my holistic growth. As I continue to progress in my academic and personal endeavors, I am excited about the prospect of completing Msc in Networking and get a Job. I believe that with dedication, perseverance, and a thirst for learning, I can make meaningful contributions in Networking. Feel free to reach out to me at maruful.rafe.mr@gmail.com to discuss potential opportunities or collaborations.</p>
+
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('experience')">Experience</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>Arduino</span><br>Making Arduino Projects</li>
+            <li><span>Web Development</span><br>Web app Development</li>
+            <li><span>App Development</span><br>Building Android and ios apps</li>
+            <li><span>Sports</span><br>Good at Football,Cricket and Badmintion</li>
+          </ul>
+        </div>
+
+
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>2023</span><br>Volenteered a Competitive Programming fest</li>
+            <li><span>2023</span><br>perticipated a Arduino competition Fest</li>
+          </ul>
+        </div>
+
+
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>2017</span><br>Completed SSC from AERE School and College obtaining GPA-5.00 </li>
+            <li><span>2019</span><br>Completed HSC from BEPZA Public School and College obtaining GPA-4.09</li>
+            <li><span>2019 - Current</span><br>Completeing Bsc Degree from Sheikh Hasina University,Netrokona</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+
+ <!-----------services---------->
+
+ <div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p> In my web design portfolio, I specialize in crafting visually stunning and user-friendly websites tailored to each client's unique needs. With expertise in HTML, CSS, and JavaScript, I create responsive designs optimized for performance across all devices. Let's bring your online vision to life!</p>
+        <a href="#">Learn More</a>
+      </div>
+      <div>
+        <i class="fa-brands fa-app-store-ios"></i>
+        <h2>App Design</h2>
+        <p> In my app design portfolio, I excel at creating intuitive and visually appealing mobile applications for Android and iOS platforms. With a focus on user experience and interface design, I develop engaging apps that meet client objectives and exceed user expectations. Let's create something amazing together!</p>
+        <a href="#">Learn More</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-robot"></i>
+        <h2>Arduino Projects</h2>
+        <p> In my Arduino projects portfolio, I showcase innovative and practical applications of Arduino technology. From automation to robotics, I leverage Arduino's versatility to develop interactive and functional projects that solve real-world problems. Explore my portfolio to see how Arduino can bring your ideas to life!</p>
+        <a href="#">Learn More</a>
+      </div>
+    </div>
+  </div>
+ </div>
+
+<!-----------portfolio---------->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="work-1.png">
+        <div class="layer">
+          <h3>Social Media App</h3>
+          <p>The app connects you to the talented people around the world. Download it from the playstore.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="work-2.png">
+        <div class="layer">
+          <h3>music App</h3>
+          <p>The app connects you to the talented people around the world. Download it from the playstore.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="work-3.png">
+        <div class="layer">
+          <h3>Online Shopping App</h3>
+          <p>The app connects you to the talented people around the world. Download it from the playstore.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
+
+<!-----------gallery---------->
+<div id="gallery">
+  <div class="container">
+      <h1 class="sub-title">Gallery</h1>
+      <div class="photo-grid">
+          <div class="photo">
+              <img src="pic4.jpg" alt="A photo of Myself">
+              <div class="photo-caption">A photo of Myself</div>
+          </div>
+          <div class="photo">
+              <img src="pic6.jpeg" alt="Received Certificates from BSFMSTU for participating in Robotics Fest">
+              <div class="photo-caption">Received Certificates from BSFMSTU for participating in Robotics Fest</div>
+          </div>
+          <div class="photo">
+              <img src="pic5.jpg" alt="Certificate and Gifts">
+              <div class="photo-caption">Certificate and Gifts</div>
+          </div>
+          <div class="photo">
+              <img src="pic3.jpg" alt="Won the Badminton Intra-Department tournament">
+              <div class="photo-caption">Won the Badminton Intra-Department tournament</div>
+          </div>
+          <div class="photo">
+              <img src="pic2.jpg" alt="Receiving Prize from honourable Treasurer Sir">
+              <div class="photo-caption">Receiving Prize from honourable Treasurer Sir</div>
+          </div>
+          <div class="photo">
+              <img src="pic1.jpg" alt="CSE-01">
+              <div class="photo-caption">CSE-01</div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-----------contacts---------->
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i> maruful.rafe.mr@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> 01910927246</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/profile.php?id=100006621076684&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://x.com/MarufulRafe?t=Z9KNTTQ2WTeoStXceCNgLA&s=07"><i class="fa-brands fa-x-twitter"></i></i></a>
+          <a href="https://www.instagram.com/maruful_islam_rafe?igsh=MWowNmcxM3B4NXA2Mg=="><i class="fa-brands fa-instagram"></i></i></a>
+          <a href="https://www.linkedin.com/in/maruful-islam-rafe-4744112b8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></i></a>
+        </div>
+        <a href="CV.pdf" download class="btn btn2">Download CV</a>
+      </div>
+        <div class="contact-right">
+<form method="post" action="https://script.google.com/macros/s/AKfycbwfgRObkM_DC2GwhDMaxk7dAjt4YLBYt8P4zdnsYM1hQKTatEPqlQkMhrCrp9Lbn_hyJA/exec" name="contact-form">
+  <input type="text" name="Name" placeholder="Your Name" required>
+  <input type="email" name="Email" placeholder="Your Email" required>
+  <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+  <button type="submit" class="btn btn2">Submit</button>
+</form>
+        </div>
+      
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright ©Rafe.</p>
+  </div>
+</div>
+
+ <script>
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+  
+  function opentab(tabname) {
+      for (var tablink of tablinks) {
+          tablink.classList.remove("active-link");
+      }
+      for (var tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+
+      document.querySelector(`.tab-links[data-tab="${tabname}"]`).classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+
+      
+  }
+  
+  // Set the initial active tab
+  document.querySelector('.tab-links[data-tab="skills"]').classList.add("active-link");
+  document.getElementById("skills").classList.add("active-tab");
+  </script>
+
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+      sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+ <script src="contacts.js"></script>
+</body>
+</html>
